@@ -1,7 +1,5 @@
 .m-white-panel {
-  $opacity: 0.75;
-  background-color: white;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + ($opacity*100) + ")";
-  filter: alpha(opacity=($opacity*100));
-  opacity: $opacity;
+  background: rgba(255, 255, 255, 0.75);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#BFFFFFFF,endColorstr=#BFFFFFFF)";
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#BFFFFFFF,endColorstr=#BFFFFFFF);
 }
