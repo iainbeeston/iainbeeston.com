@@ -1,17 +1,19 @@
 .l-main {
-  $background-image: '/images/background.jpg';
 
   position: fixed;
   width: 100%;
   height: 100%;
 
+  $background-image: '/images/background.jpg';
   background: url($background-image) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
-
-  // for IE
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$background-image, sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$background-image, sizingMethod='scale')";
+
+  @include breakpoint($breakpoint-small) {
+    $background-image: '/images/background_small.jpg';
+
+    background: url($background-image) no-repeat center center fixed;
+    background-size: cover;
+  }
 }
