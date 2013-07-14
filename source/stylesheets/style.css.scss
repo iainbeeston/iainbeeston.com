@@ -6,7 +6,7 @@
 @import "layout/l_main";
 
 // Import Module Styles
-// @import "modules/buttons";
+@import "modules/m_icons";
 
 // Import State Styles
 // @import "states/validation";
@@ -15,10 +15,3 @@
 @import "sprites/icons";
 
 
-.icon {
-  display: inline-block;
-  // hide the text
-  text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;
-}
