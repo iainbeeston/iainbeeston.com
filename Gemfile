@@ -1,6 +1,7 @@
-# If you have OpenSSL installed, we recommend updating
-# the following line to use "https"
-source 'http://rubygems.org'
+#ruby=rbx-2.0.0.rc1
+#ruby-gemset=iainbeeston.com
+
+source 'https://rubygems.org'
 
 gem "middleman"
 
