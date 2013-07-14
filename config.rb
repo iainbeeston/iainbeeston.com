@@ -70,4 +70,7 @@ configure :build do
 
   # Minify HTML
   activate :minify_html
+
+  # Optimise images
+  activate :image_optim
 end
