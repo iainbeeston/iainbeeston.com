@@ -1,14 +1,7 @@
 .l-article {
   position: fixed;
   bottom: 0px;
-  padding: 20px;
-
-  $opacity: 0.75;
-  background-color: white;
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + ($opacity*100) + ")";
-  filter: alpha(opacity=($opacity*100));
-  opacity: $opacity;
-
+  padding: 30px;
   height: 38%;
   @include breakpoint($breakpoint-small) {
     height: 100%;

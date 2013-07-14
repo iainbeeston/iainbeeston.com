@@ -1,0 +1,7 @@
+.m-white-panel {
+  $opacity: 0.75;
+  background-color: white;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + ($opacity*100) + ")";
+  filter: alpha(opacity=($opacity*100));
+  opacity: $opacity;
+}

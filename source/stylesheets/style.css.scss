@@ -5,13 +5,14 @@
 @import "base/variables";
 @import "base/typography";
 
-
 // Import Layout Styles
 @import "layout/l_main";
 @import "layout/l_article";
 
 // Import Module Styles
 @import "modules/m_icons";
+@import "modules/m_white_panel";
+@import "modules/m_background_image";
 
 // Import State Styles
 // @import "states/validation";
