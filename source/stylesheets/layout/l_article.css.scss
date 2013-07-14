@@ -1,9 +1,12 @@
 .l-article {
+  $opacity: 0.75;
   position: fixed;
   bottom: 0px;
   padding: 20px;
   background-color: white;
-  opacity: 0.75;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=" + ($opacity*100) + ")";
+  filter: alpha(opacity=($opacity*100));
+  opacity: $opacity;
   @include breakpoint($breakpoint-small) {
     height: 100%;
   }
