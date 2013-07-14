@@ -1,0 +1,13 @@
+.l-article {
+  position: fixed;
+  bottom: 0px;
+  padding: 20px;
+  background-color: white;
+  opacity: 0.75;
+  @include breakpoint($breakpoint-small) {
+    height: 100%;
+  }
+  @include breakpoint($breakpoint-large) {
+    height: 38%;
+  }
+}

@@ -9,5 +9,6 @@
     %link{:href => "stylesheets/style.css", :rel => "stylesheet"}
 
   %body
-    %div{:class => 'l-main'}
-      = yield
+    %main.l-main
+      %article.l-article
+        = yield

@@ -14,3 +14,6 @@ gem "middleman-imageoptim"
 gem "sprite-factory"
 
 gem "chunky_png"
+
+gem "breakpoint"
+
