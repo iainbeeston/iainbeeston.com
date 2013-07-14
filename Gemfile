@@ -2,5 +2,9 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
-gem "middleman", "~>3.1.3"
+gem "middleman"
+
+gem "middleman-minify-html"
+
+gem "autoprefixer-rails"
 
