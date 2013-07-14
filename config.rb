@@ -1,3 +1,5 @@
+require 'extensions/sprite_factory'
+
 ###
 # Compass
 ###
@@ -33,7 +35,7 @@
 ###
 
 # Automatic image dimensions on image_tag helper
-activate :automatic_image_sizes
+# activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
 # activate :livereload
@@ -74,3 +76,6 @@ configure :build do
   # Optimise images
   activate :image_optim
 end
+
+# custom extensions
+activate :sprite_factory

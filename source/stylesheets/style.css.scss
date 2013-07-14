@@ -1,12 +1,24 @@
 // Import Base Styles
-@import "base/normalize"
-// @import "base/all_your"
+@import "base/normalize";
+// @import "base/all_your";
 
 // Import Layout Styles
-// @import "layout/grid"
+// @import "layout/grid";
 
 // Import Module Styles
-// @import "modules/buttons"
+// @import "modules/buttons";
 
 // Import State Styles
-// @import "states/validation"
+// @import "states/validation";
+
+// Import Sprite Styles
+@import "sprites/icons";
+
+
+.icon {
+  display: inline-block;
+  // hide the text
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}

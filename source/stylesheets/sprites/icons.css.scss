@@ -1,0 +1,24 @@
+/*
+
+        Creating a sprite from following images:
+        
+        source/images/sprites/icons/facebook.png (48x48)
+        source/images/sprites/icons/github.png (48x48)
+        source/images/sprites/icons/linkedin.png (48x48)
+        source/images/sprites/icons/stackoverflow.png (48x48)
+        source/images/sprites/icons/twitter.png (48x48)
+
+        Output files:
+          source/images/sprites/icons.png
+          source/stylesheets/sprites/icons.css.scss
+
+        Output size:
+          240x48
+
+
+*/
+.icon.facebook { width: 48px; height: 48px; background: url(/images/sprites/icons.png) 0px 0px no-repeat; }
+.icon.github { width: 48px; height: 48px; background: url(/images/sprites/icons.png) -48px 0px no-repeat; }
+.icon.linkedin { width: 48px; height: 48px; background: url(/images/sprites/icons.png) -96px 0px no-repeat; }
+.icon.stackoverflow { width: 48px; height: 48px; background: url(/images/sprites/icons.png) -144px 0px no-repeat; }
+.icon.twitter { width: 48px; height: 48px; background: url(/images/sprites/icons.png) -192px 0px no-repeat; }
