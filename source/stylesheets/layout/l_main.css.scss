@@ -13,5 +13,5 @@
 
   // for IE
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$background-image, sizingMethod='scale');
-//  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$background-image, sizingMethod='scale')";
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$background-image, sizingMethod='scale')";
 }
