@@ -10,7 +10,7 @@ ul {
 .icon {
   display: inline-block;
   // hide the text
-  text-indent: 100%;
+  color: transparent;
   white-space: nowrap;
   overflow: hidden;
 }
