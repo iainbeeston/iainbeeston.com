@@ -2,23 +2,23 @@
 
         Creating a sprite from following images:
         
-        source/images/sprites/icons/facebook.png (48x48)
-        source/images/sprites/icons/github.png (48x48)
-        source/images/sprites/icons/linkedin.png (48x48)
-        source/images/sprites/icons/stackoverflow.png (48x48)
-        source/images/sprites/icons/twitter.png (48x48)
+        source/images/sprites/icons/facebook.png (64x64)
+        source/images/sprites/icons/github.png (64x64)
+        source/images/sprites/icons/linkedin.png (64x64)
+        source/images/sprites/icons/stackexchange.png (64x64)
+        source/images/sprites/icons/twitter.png (64x64)
 
         Output files:
           source/images/sprites/icons.png
           source/stylesheets/sprites/icons.css.scss
 
         Output size:
-          240x48
+          320x64
 
 
 */
-.icon.facebook { width: 48px; height: 48px; background: url(/images/sprites/icons.png) 0px 0px no-repeat; }
-.icon.github { width: 48px; height: 48px; background: url(/images/sprites/icons.png) -48px 0px no-repeat; }
-.icon.linkedin { width: 48px; height: 48px; background: url(/images/sprites/icons.png) -96px 0px no-repeat; }
-.icon.stackoverflow { width: 48px; height: 48px; background: url(/images/sprites/icons.png) -144px 0px no-repeat; }
-.icon.twitter { width: 48px; height: 48px; background: url(/images/sprites/icons.png) -192px 0px no-repeat; }
+.icon.facebook { width: 64px; height: 64px; background: url(/images/sprites/icons.png) 0px 0px no-repeat; }
+.icon.github { width: 64px; height: 64px; background: url(/images/sprites/icons.png) -64px 0px no-repeat; }
+.icon.linkedin { width: 64px; height: 64px; background: url(/images/sprites/icons.png) -128px 0px no-repeat; }
+.icon.stackexchange { width: 64px; height: 64px; background: url(/images/sprites/icons.png) -192px 0px no-repeat; }
+.icon.twitter { width: 64px; height: 64px; background: url(/images/sprites/icons.png) -256px 0px no-repeat; }
