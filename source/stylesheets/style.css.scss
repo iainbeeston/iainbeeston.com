@@ -4,6 +4,7 @@
 @import "base/normalize";
 @import "base/variables";
 @import "base/typography";
+@import "base/icons";
 
 // Import Layout Styles
 @import "layout/l_main";
@@ -16,8 +17,3 @@
 @import "modules/m_icons";
 @import "modules/m_white_panel";
 @import "modules/m_background_image";
-
-// Import Sprite Styles
-@import "sprites/icons";
-
-

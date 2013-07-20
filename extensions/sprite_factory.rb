@@ -10,7 +10,7 @@ class SpriteFactoryExtension < Middleman::Extension
         sprite_name = File.basename(image_path).chomp(File::SEPARATOR)
         style_path = File.join(app.source, app.css_dir, 'sprites', sprite_name + (options_style == "css" ? ".css" : ".css.#{options_style}"))
         # TODO work out why i have to specify the library
-        ::SpriteFactory.run! image_path, style: options_style, output_style: style_path, cssurl: image_path('sprites'), selector: ".#{sprite_name.singularize}.", library: 'chunkypng'
+        ::SpriteFactory.run! image_path, style: options_style, output_style: style_path, cssurl: image_path('sprites'), selector: ".#{sprite_name.singularize}.", library: 'chunkypng', nocss: true, pngcrush: true
       end
       true
     end

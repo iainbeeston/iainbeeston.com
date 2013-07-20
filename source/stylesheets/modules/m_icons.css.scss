@@ -7,13 +7,10 @@ ul {
   list-style: none;
   .icon {
     margin: 1px;
+    display: inline-block;
+    color: transparent;
+    white-space: nowrap;
+    overflow: hidden;
   }
 }
 
-.icon {
-  display: inline-block;
-  // hide the text
-  color: transparent;
-  white-space: nowrap;
-  overflow: hidden;
-}
