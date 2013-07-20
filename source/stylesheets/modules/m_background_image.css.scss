@@ -2,8 +2,8 @@
   $background-image: '/images/background.jpg';
   background: url($background-image) no-repeat center center fixed;
   background-size: cover;
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$background-image, sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$background-image, sizingMethod='scale')";
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='#{$background-image}', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='#{$background-image}', sizingMethod='scale')";
 
   @include breakpoint($breakpoint-small) {
     $background-image: '/images/background_small.jpg';
