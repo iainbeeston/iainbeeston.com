@@ -81,6 +81,7 @@ GEM
       ffi (>= 0.5.0)
     rb-kqueue (0.2.0)
       ffi (>= 0.5.0)
+    rmagick (2.13.2)
     sass (3.2.9)
     sprite-factory (1.5.3)
     sprockets (2.10.0)
@@ -109,4 +110,5 @@ DEPENDENCIES
   middleman
   middleman-imageoptim
   middleman-minify-html
+  rmagick
   sprite-factory
