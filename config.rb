@@ -75,6 +75,8 @@ configure :build do
 
   # Optimise images
   activate :image_optim
+
+  activate :gzip
 end
 
 # custom extensions
