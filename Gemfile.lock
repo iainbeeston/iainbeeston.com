@@ -1,3 +1,20 @@
+GIT
+  remote: git://github.com/iainbeeston/middleman-sync.git
+  revision: f75636337d2fc4baa7c55a7e2557208697b8e43c
+  branch: patch-1
+  specs:
+    middleman-sync (3.0.10)
+      asset_sync (~> 0.5.4)
+      middleman-core (>= 3.0.0)
+
+GIT
+  remote: git://github.com/rumblelabs/asset_sync.git
+  revision: fefd9ddfa1b609eb39f6003d91dc52acf405a3e4
+  specs:
+    asset_sync (0.5.4)
+      activemodel
+      fog
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -7,9 +24,6 @@ GEM
     activesupport (3.2.12)
       i18n (~> 0.6)
       multi_json (~> 1.0)
-    asset_sync (0.5.4)
-      activemodel
-      fog
     autoprefixer-rails (0.5.20130629)
       execjs
     breakpoint (2.0.5)
@@ -83,9 +97,6 @@ GEM
       sprockets (~> 2.1)
       sprockets-helpers (~> 1.0.0)
       sprockets-sass (~> 1.0.0)
-    middleman-sync (3.0.10)
-      asset_sync (~> 0.5.4)
-      middleman-core (>= 3.0.0)
     mime-types (1.23)
     mini_portile (0.5.1)
     multi_json (1.7.7)
@@ -126,12 +137,13 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  asset_sync!
   autoprefixer-rails
   breakpoint
   chunky_png
   foreman
   middleman
   middleman-minify-html
-  middleman-sync
+  middleman-sync!
   rmagick
   sprite-factory

@@ -17,7 +17,9 @@ gem "breakpoint"
 
 gem "rmagick"
 
-gem "middleman-sync"
+gem "asset_sync", github: "rumblelabs/asset_sync"
+
+gem "middleman-sync", github: "iainbeeston/middleman-sync", branch: "patch-1"
 
 gem "foreman"
 

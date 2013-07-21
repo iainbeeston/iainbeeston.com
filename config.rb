@@ -85,6 +85,7 @@ activate :sync do |sync|
   sync.fog_region = 'us-east-1' # The region your storage bucket is in
   sync.aws_access_key_id = 'AKIAJ7ZFT4UXEW3JMAMQ' # Your Amazon S3 access key
   sync.aws_secret_access_key = ENV['AWS_SECRET_KEY'] # Your Amazon S3 access secret
+  sync.aws_reduced_redundancy = true # Use reduced redundnacy storage
   sync.existing_remote_files = 'delete' # What to do with your existing remotefiles?
   sync.after_build = false # Disable sync to run after Middleman build
 end
