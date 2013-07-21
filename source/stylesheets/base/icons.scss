@@ -1,25 +1,29 @@
-.icon {
+.icon-container {
+  display: inline-block;
+  position: relative;
   height: $icon-width;
   width: $icon-width;
-  background-size: ($icon-width*$icon-count) $icon-width;
-  background-repeat: no-repeat;
-  background-image: url($icons-path);
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='#{$icons-path}', sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='#{$icons-path}', sizingMethod='scale')";
+  overflow: hidden;
+  .icon {
+    position: absolute;
+    height: $icon-width;
+    width: ($icon-width*$icon-count);
+    top: 0px;
 
-  &.github {
-    background-position: ($icon-width * 0) 0px;
-  }
+    &.github {
+      left: ($icon-width * 0)
+    }
 
-  &.linkedin {
-    background-position: ($icon-width * -1) 0px;
-  }
+    &.linkedin {
+      left: ($icon-width * -1);
+    }
 
-  &.stackoverflow {
-    background-position: ($icon-width * -2) 0px;
-  }
+    &.stackoverflow {
+      left: ($icon-width * -2);
+    }
 
-  &.twitter {
-    background-position: ($icon-width * -3) 0px;
+    &.twitter {
+      left: ($icon-width * -3);
+    }
   }
 }

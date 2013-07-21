@@ -1,11 +1,7 @@
 .m-icons {
   list-style: none inside;
-  .icon {
+  .icon-container {
     margin: $icon-margin;
-    display: inline-block;
-    color: transparent;
-    white-space: nowrap;
-    overflow: hidden;
   }
 }
 
