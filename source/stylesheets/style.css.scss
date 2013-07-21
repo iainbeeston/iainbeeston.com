@@ -1,22 +1,22 @@
 @import "breakpoint";
 
 // Import Base Styles
-@import "base/normalize";
-@import "base/variables";
-@import "base/typography";
-@import "base/icons";
-@import "base/overrides";
+@import "base/_normalize";
+@import "base/_variables";
+@import "base/_typography";
+@import "base/_icons";
+@import "base/_overrides";
 
 // Import Layout Styles
-@import "layout/l_main";
-@import "layout/l_article";
-@import "layout/l_avatar";
-@import "layout/l_description";
-@import "layout/l_links";
+@import "layout/_l-main";
+@import "layout/_l-article";
+@import "layout/_l-avatar";
+@import "layout/_l-description";
+@import "layout/_l-links";
 
 // Import Module Styles
-@import "modules/m_avatar_image";
-@import "modules/m_icons";
-@import "modules/m_white_panel";
-@import "modules/m_background_image";
-@import "modules/m_header";
+@import "modules/_m-avatar-image";
+@import "modules/_m-icons";
+@import "modules/_m-white-panel";
+@import "modules/_m-background-image";
+@import "modules/_m-header";
