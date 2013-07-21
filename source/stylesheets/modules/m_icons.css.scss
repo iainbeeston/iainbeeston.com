@@ -4,9 +4,9 @@ ul {
 }
 
 .m-icons {
-  list-style: none;
+  list-style: none inside;
   .icon {
-    margin: 1px;
+    margin: $icon-margin;
     display: inline-block;
     color: transparent;
     white-space: nowrap;

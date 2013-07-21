@@ -1,29 +1,25 @@
 .icon {
-  $icons: '/images/sprites/icons.png';
-  $icon-size: 32px;
-  $icon-count: 4;
-
-  height: $icon-size;
-  width: $icon-size;
-  background-size: ($icon-size*$icon-count) $icon-size;
+  height: $icon-width;
+  width: $icon-width;
+  background-size: ($icon-width*$icon-count) $icon-width;
   background-repeat: no-repeat;
   background-image: url($icons);
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$url, sizingMethod='scale');
   -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$url, sizingMethod='scale')";
 
   &.github {
-    background-position: ($icon-size * 0) 0px;
+    background-position: ($icon-width * 0) 0px;
   }
 
   &.linkedin {
-    background-position: ($icon-size * -1) 0px;
+    background-position: ($icon-width * -1) 0px;
   }
 
   &.stackoverflow {
-    background-position: ($icon-size * -2) 0px;
+    background-position: ($icon-width * -2) 0px;
   }
 
   &.twitter {
-    background-position: ($icon-size * -3) 0px;
+    background-position: ($icon-width * -3) 0px;
   }
 }
