@@ -1,6 +1,7 @@
 .l-description {
   margin-left: $avatar-width;
   margin-right: $icon-width;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 0px 20px;
+  max-height: $avatar-width;
+  overflow: scroll;
 }
