@@ -1,4 +1,4 @@
-#ruby=rbx-2.0.0.rc1
+#ruby=ruby-1.9.3
 #ruby-gemset=iainbeeston.com
 
 source 'https://rubygems.org'
@@ -16,4 +16,8 @@ gem "chunky_png"
 gem "breakpoint"
 
 gem "rmagick"
+
+gem "middleman-sync"
+
+gem "foreman"
 

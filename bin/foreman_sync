@@ -1,0 +1,1 @@
+foreman run -e .env middleman sync
