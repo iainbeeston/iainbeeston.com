@@ -3,9 +3,9 @@
   width: $icon-width;
   background-size: ($icon-width*$icon-count) $icon-width;
   background-repeat: no-repeat;
-  background-image: url($icons);
-  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$url, sizingMethod='scale');
-  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=$url, sizingMethod='scale')";
+  background-image: url($icons-path);
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='#{$icons-path}', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='#{$icons-path}', sizingMethod='scale')";
 
   &.github {
     background-position: ($icon-width * 0) 0px;
