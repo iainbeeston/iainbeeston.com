@@ -61,9 +61,6 @@ configure :build do
   # Minify Javascript on build
   activate :minify_javascript
 
-  # Enable cache buster
-  activate :asset_hash
-
   # Use relative URLs
   # activate :relative_assets
 
@@ -78,3 +75,6 @@ end
 
 # custom extensions
 activate :sprite_factory
+
+# Enable cache buster
+activate :asset_hash
