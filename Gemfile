@@ -9,8 +9,6 @@ gem "middleman-minify-html"
 
 gem "autoprefixer-rails"
 
-gem "middleman-imageoptim"
-
 gem "sprite-factory"
 
 gem "chunky_png"
