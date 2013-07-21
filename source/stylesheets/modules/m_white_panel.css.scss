@@ -2,5 +2,5 @@
   $panel-colour: rgba(255, 255, 255, 0.75);
   background-color: $panel-colour;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#{ie_hex_str($panel-colour)},endColorstr=#{ie_hex_str($panel-colour)})";
-  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#{ie_hex_str($panel-colour)},endColorstr=#{ie_hex_str($panel-colour)});
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#{ie_hex_str($panel-colour)},endColorstr=#{ie_hex_str($panel-colour)});
 }
