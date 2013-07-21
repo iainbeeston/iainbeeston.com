@@ -1,0 +1,15 @@
+.m-header {
+  > * {
+    display: inline;
+  }
+
+  .subheader {
+    text-transform: lowercase;
+    &::before {
+      content: "(";
+    }
+    &::after {
+      content: ")";
+    }
+  }
+}
