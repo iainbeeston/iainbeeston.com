@@ -17,3 +17,5 @@ gem "chunky_png"
 
 gem "breakpoint"
 
+gem "rmagick"
+
