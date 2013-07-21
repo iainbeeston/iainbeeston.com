@@ -6,11 +6,5 @@
 
   .subheader {
     text-transform: lowercase;
-    &::before {
-      content: "(";
-    }
-    &::after {
-      content: ")";
-    }
   }
 }
