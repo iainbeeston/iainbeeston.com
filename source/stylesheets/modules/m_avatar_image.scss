@@ -2,6 +2,7 @@
   $avatar-url: 'http://www.gravatar.com/avatar/4ec7cb42339aacafc17395000e2c97d4?size=#{$avatar-width}';
 
   display: inline-block;
+  zoom: 1;
   height: $avatar-width;
   width: $avatar-width;
   background: url($avatar-url) 0px 0px no-repeat;
