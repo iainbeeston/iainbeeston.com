@@ -1,5 +1,5 @@
 .m-background-image {
-  $background-path: '/images/background.jpg';
+  $background-path: '<%= image_path('background.jpg') %>';
   background: url($background-path) no-repeat center center fixed;
   background-size: cover;
   filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='#{$background-path}', sizingMethod='scale');
