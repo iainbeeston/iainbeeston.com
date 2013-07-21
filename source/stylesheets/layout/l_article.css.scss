@@ -3,7 +3,4 @@
   bottom: 0px;
   padding: 30px;
   height: 38%;
-  @include breakpoint($breakpoint-small) {
-    height: 100%;
-  }
 }
