@@ -73,13 +73,13 @@ configure :build do
   activate :minify_html
 
   activate :gzip
+
+  # Enable cache buster
+  activate :asset_hash
 end
 
 # custom extensions
 activate :sprite_factory
-
-# Enable cache buster
-activate :asset_hash
 
 activate :sync do |sync|
   sync.fog_provider = 'AWS' # Your storage provider
