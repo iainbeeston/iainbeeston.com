@@ -1,0 +1,6 @@
+// golden ratio line heights based on http://www.pearsonified.com/2011/12/golden-ratio-typography.php
+@function optimal-line-height($font-size, $column-width) {
+  $gr: 1.61803398875;
+  $ratio: $gr - (1/(2*$gr))*(1-($column-width/(($font-size*$gr)*($font-size*$gr))));
+  @return round($font-size*$ratio)*1px;
+}

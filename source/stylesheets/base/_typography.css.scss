@@ -4,28 +4,26 @@ body {
 
 p {
   font-size: 20px;
-  line-height: 30px;
+  line-height: optimal-line-height(20px, $font-column-width);
   @include breakpoint($bp-mobile) {
-    font-size: 26px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: optimal-line-height(25px, $font-mobile-column-width);
   }
 }
 
 h2 {
   font-size: 25px;
-  line-height: 38px;
+  line-height: optimal-line-height(25px, $font-column-width);
   @include breakpoint($bp-mobile) {
-    font-size: 26px;
-    line-height: 39px;
+    line-height: optimal-line-height(25px, $font-mobile-column-width);
   }
 }
 
 h1 {
   font-size: 32px;
-  line-height: 38px;
+  line-height: optimal-line-height(32px, $font-column-width);
   @include breakpoint($bp-mobile) {
-    font-size: 33px;
-    line-height: 39px;
+    line-height: optimal-line-height(32px, $font-column-width);
   }
 }
 
