@@ -2,8 +2,4 @@
   position: fixed;
   bottom: 0;
   padding: $article-padding;
-  height: $avatar-width;
-  @include breakpoint($bp-mobile) {
-    height: $mobile-avatar-width;
-  }
 }
