@@ -5,16 +5,28 @@ body {
 p {
   font-size: 20px;
   line-height: 30px;
+  @include breakpoint($bp-mobile) {
+    font-size: 30px;
+    line-height: 45px;
+  }
 }
 
 h3 {
   font-size: 25px;
   line-height: 38px;
+  @include breakpoint($bp-mobile) {
+    font-size: 38px;
+    line-height: 57px;
+  }
 }
 
 h1 {
   font-size: 32px;
   line-height: 38px;
+  @include breakpoint($bp-mobile) {
+    font-size: 48px;
+    line-height: 57px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6, p, span {
