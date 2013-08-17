@@ -4,6 +4,8 @@
   margin: 0px;
   > * {
     padding: $icon-padding;
+    height: $icon-width;
+    width: $icon-width;
     @include breakpoint($bp-mobile) {
       display: inline;
     }
