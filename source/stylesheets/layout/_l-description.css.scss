@@ -1,9 +1,9 @@
 .l-description {
   overflow-y: auto;
-  margin: 0 $icon-box-width 0 $avatar-width;
-  padding: 0 20px;
+  padding: 0 $article-contents-padding;
+  margin-right: $icon-width;
   @include breakpoint($bp-mobile) {
-    margin: 0 0 0 $mobile-avatar-width;
-    padding-right: 0;
+    margin: 0;
+    padding: 0;
   }
 }

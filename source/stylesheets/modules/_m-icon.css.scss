@@ -1,30 +1,31 @@
 .m-icon {
   display: inline-block;
-  zoom: 1;
+  *display: inline;
+  *zoom: 1;
   position: relative;
-  height: $icon-width;
-  width: $icon-width;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
   .icon-background {
     position: absolute;
-    height: $icon-width;
-    width: ($icon-width*$icon-count);
+    height: 100%;
+    width: 100% * $icon-count;
     top: 0px;
 
     &.github {
-      left: ($icon-width * 0)
+      left: (100% * 0)
     }
 
     &.linkedin {
-      left: ($icon-width * -1);
+      left: (100% * -1);
     }
 
     &.stackoverflow {
-      left: ($icon-width * -2);
+      left: (100% * -2);
     }
 
     &.twitter {
-      left: ($icon-width * -3);
+      left: (100% * -3);
     }
   }
 }

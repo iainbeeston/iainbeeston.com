@@ -1,9 +1,13 @@
 .l-links {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
   position: absolute;
-  right: $article-padding;
   top: $article-padding;
+  right: $article-padding;
   @include breakpoint($bp-mobile) {
-    top: inherit;
-    bottom: $article-padding;
+    top: $mobile-avatar-width + $article-padding + $article-contents-padding;
+    right: auto;
+    left: $article-padding;
   }
 }

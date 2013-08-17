@@ -1,9 +1,14 @@
 .l-avatar {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
   float: left;
   height: $avatar-width;
   width: $avatar-width;
   @include breakpoint($bp-mobile) {
     width: $mobile-avatar-width;
     height: $mobile-avatar-width;
+    padding: 0 $article-contents-padding $article-contents-padding 0;
+    margin-bottom: $mobile-icon-width;
   }
 }

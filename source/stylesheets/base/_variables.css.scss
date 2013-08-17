@@ -1,9 +1,16 @@
 $bp-mobile: (max-width 767px);
 $icons-path: '/images/sprites/icons.png';
+$icon-count: 4;
+
 $icon-width: 32px;
 $icon-padding: 2px;
 $icon-box-width: $icon-width + ($icon-padding * 2);
-$icon-count: 4;
 $avatar-width: $icon-box-width * $icon-count;
+
+$mobile-icon-width: $icon-width * 2;
+$mobile-icon-padding: $icon-padding * 2;
+$mobile-icon-box-width: $icon-box-width * 2;
 $mobile-avatar-width: $avatar-width * 2;
+
 $article-padding: $icon-width;
+$article-contents-padding: $icon-width / 2;

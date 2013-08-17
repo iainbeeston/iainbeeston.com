@@ -7,7 +7,11 @@
     height: $icon-width;
     width: $icon-width;
     @include breakpoint($bp-mobile) {
-      display: inline;
+      display: inline-block;
+      *display: inline;
+      *zoom: 1;
+      height: $mobile-icon-width;
+      width: $mobile-icon-width;
     }
   }
 }
