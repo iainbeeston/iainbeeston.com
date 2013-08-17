@@ -1,8 +1,9 @@
-$breakpoint-small: (max-width 640px);
+$bp-mobile: (max-width 767px);
 $icons-path: '/images/sprites/icons.png';
 $icon-width: 32px;
 $icon-padding: 2px;
 $icon-box-width: $icon-width + ($icon-padding * 2);
 $icon-count: 4;
 $avatar-width: $icon-box-width * $icon-count;
-
+$mobile-avatar-width: $avatar-width * 2;
+$article-padding: $icon-width;

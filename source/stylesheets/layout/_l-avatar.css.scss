@@ -2,4 +2,8 @@
   float: left;
   height: $avatar-width;
   width: $avatar-width;
+  @include breakpoint($bp-mobile) {
+    width: $mobile-avatar-width;
+    height: $mobile-avatar-width;
+  }
 }

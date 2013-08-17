@@ -1,7 +1,9 @@
 .l-description {
-  margin-left: $avatar-width;
-  margin-right: $icon-width;
-  padding: 0px 20px;
-  max-height: $avatar-width;
   overflow-y: auto;
+  margin: 0 $icon-box-width 0 $avatar-width;
+  padding: 0 20px;
+  @include breakpoint($bp-mobile) {
+    margin: 0 0 0 $mobile-avatar-width;
+    padding-right: 0;
+  }
 }

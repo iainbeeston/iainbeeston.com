@@ -1,3 +1,9 @@
 .l-links {
-  float: right;
+  position: absolute;
+  right: $article-padding;
+  top: $article-padding;
+  @include breakpoint($bp-mobile) {
+    top: inherit;
+    bottom: $article-padding;
+  }
 }
