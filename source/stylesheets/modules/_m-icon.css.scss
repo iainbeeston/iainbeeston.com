@@ -1,11 +1,11 @@
-.icon-container {
+.m-icon {
   display: inline-block;
   zoom: 1;
   position: relative;
   height: $icon-width;
   width: $icon-width;
   overflow: hidden;
-  .icon {
+  .icon-window {
     position: absolute;
     height: $icon-width;
     width: ($icon-width*$icon-count);

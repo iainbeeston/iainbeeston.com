@@ -1,9 +1,8 @@
-.m-icons {
+.l-icons {
   list-style: none inside;
   padding: 0px;
   margin: 0px;
-  .icon-container {
-    margin: $icon-margin;
+  > * {
+    padding: $icon-padding;
   }
 }
-
