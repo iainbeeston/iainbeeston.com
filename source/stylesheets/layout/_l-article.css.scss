@@ -3,3 +3,8 @@
   bottom: 0;
   padding: $article-padding;
 }
+
+// *horrific* IE6 hack to preserve fixed positioning
+* html .l-article {
+  position: absolute;
+}
