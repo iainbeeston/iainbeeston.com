@@ -1,0 +1,6 @@
+@mixin background-image($background-path) {
+  background: url($background-path) no-repeat center center fixed;
+  background-size: cover;
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='#{$background-path}', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='#{$background-path}', sizingMethod='scale')";
+}
