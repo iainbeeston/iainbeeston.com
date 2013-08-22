@@ -1,8 +1,5 @@
 .l-article {
-  position: fixed;
+  position: absolute;
   bottom: 0;
   padding: $article-padding;
-  @include breakpoint($bp-mobile) {
-    max-height: 100%;
-  }
 }
