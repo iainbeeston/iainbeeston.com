@@ -1,21 +1,21 @@
 %figure.l-avatar
   -# image size = $icon-box-width * $icon-count * 2
-  = image_tag "https://secure.gravatar.com/avatar/4ec7cb42339aacafc17395000e2c97d4?size=288", alt: "Gravatar", class: "m-avatar-image"
+  = image_tag "https://secure.gravatar.com/avatar/4ec7cb42339aacafc17395000e2c97d4?size=288", alt: "Gravatar", class: "m-avatar-image", itemprop: "image"
 
 %section.l-description
   %header.m-header
-    %h1 Iain Beeston
-    %h2 (software engineer)
+    %h1{itemprop: "name"} Iain Beeston
+    %h2{itemprop: "title"} (software engineer)
   %p
     Makes web-apps using Ruby and JavaScript. Works as a developer for
     = succeed "." do
-      = link_to "We Are Brand New", "http://wearebrandnew.com/", target: "_blank"
+      = link_to "We are Brand New", "http://wearebrandnew.com/", target: "_blank", itemprop: "affiliation"
     Contributes to a variety of open-source projects.
 
 %nav.l-links
   %ul.l-icons
-    %li= link_to image_tag("sprites/icons.png", alt: "LinkedIn", class: "icon-background linkedin"), "http://www.linkedin.com/in/iainbeeston/", target: "_blank", class: "m-icon"
-    %li= link_to image_tag("sprites/icons.png", alt: "Twitter", class: "icon-background twitter"), "http://twitter.com/iainbeeston/", target: "_blank", class: "m-icon"
-    %li= link_to image_tag("sprites/icons.png", alt: "Stack Overflow", class: "icon-background stackoverflow"), "http://stackoverflow.com/users/344660/", target: "_blank", class: "m-icon"
-    %li= link_to image_tag("sprites/icons.png", alt: "GitHub", class: "icon-background github"), "http://github.com/iainbeeston/", target: "_blank", class: "m-icon"
+    %li= link_to image_tag("sprites/icons.png", alt: "LinkedIn", class: "icon-background linkedin"), "http://www.linkedin.com/in/iainbeeston/", target: "_blank", class: "m-icon", itemprop: "url"
+    %li= link_to image_tag("sprites/icons.png", alt: "Twitter", class: "icon-background twitter"), "http://twitter.com/iainbeeston/", target: "_blank", class: "m-icon", itemprop: "url"
+    %li= link_to image_tag("sprites/icons.png", alt: "Stack Overflow", class: "icon-background stackoverflow"), "http://stackoverflow.com/users/344660/", target: "_blank", class: "m-icon", itemprop: "url"
+    %li= link_to image_tag("sprites/icons.png", alt: "GitHub", class: "icon-background github"), "http://github.com/iainbeeston/", target: "_blank", class: "m-icon", itemprop: "url"
 
