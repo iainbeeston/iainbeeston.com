@@ -3,4 +3,14 @@
     display: inline;
     white-space: nowrap;
   }
+
+  .sub {
+    text-transform: lowercase;
+    &::before {
+      content: "(";
+    }
+    &::after {
+      content: ")";
+    }
+  }
 }
