@@ -1,0 +1,13 @@
+.m-icon {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  .icon-background {
+    height: 100%;
+    width: 100%;
+  }
+}

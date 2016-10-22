@@ -1,0 +1,6 @@
+.m-background-image {
+  @include background-image('/images/background.jpg');
+  @media #{$bp-mobile} {
+    @include background-image('/images/small_background.jpg');
+  }
+}

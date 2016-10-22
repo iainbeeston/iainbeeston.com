@@ -5,7 +5,8 @@ body {
 p {
   font-size: 20px;
   line-height: optimal-line-height(20px, $font-column-width);
-  @include breakpoint($bp-mobile) {
+
+  @media #{$bp-mobile} {
     font-size: 25px;
     line-height: optimal-line-height(25px, $font-mobile-column-width);
   }
@@ -14,7 +15,7 @@ p {
 h2 {
   font-size: 25px;
   line-height: optimal-line-height(25px, $font-column-width);
-  @include breakpoint($bp-mobile) {
+  @media #{$bp-mobile} {
     line-height: optimal-line-height(25px, $font-mobile-column-width);
   }
 }
@@ -22,7 +23,7 @@ h2 {
 h1 {
   font-size: 32px;
   line-height: optimal-line-height(32px, $font-column-width);
-  @include breakpoint($bp-mobile) {
+  @media #{$bp-mobile} {
     line-height: optimal-line-height(32px, $font-column-width);
   }
 }

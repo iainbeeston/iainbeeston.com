@@ -6,7 +6,7 @@
     padding: $icon-padding;
     height: $icon-width;
     width: $icon-width;
-    @include breakpoint($bp-mobile) {
+    @media #{$bp-mobile} {
       display: inline-block;
       *display: inline;
       *zoom: 1;

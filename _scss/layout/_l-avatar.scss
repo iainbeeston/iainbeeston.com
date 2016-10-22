@@ -5,7 +5,7 @@
   float: left;
   height: $avatar-width;
   width: $avatar-width;
-  @include breakpoint($bp-mobile) {
+  @media #{$bp-mobile} {
     width: $mobile-avatar-width;
     height: $mobile-avatar-width;
     padding: 0 $article-contents-padding $article-contents-padding 0;
