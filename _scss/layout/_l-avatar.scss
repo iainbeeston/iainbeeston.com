@@ -1,10 +1,13 @@
 .l-avatar {
+  box-sizing: border-box;
   display: inline-block;
   float: left;
   width: $avatar-width;
   @media #{$bp-mobile} {
     margin-bottom: $article-padding;
     margin-right: 0;
+    padding-left: 2*$article-padding;
+    padding-right: 2*$article-padding;
     width: 100%;
   }
 }

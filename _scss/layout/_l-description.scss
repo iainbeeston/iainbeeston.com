@@ -3,7 +3,9 @@
   margin-left: $avatar-width;
   margin-right: $icon-width;
   @media #{$bp-mobile} {
-    margin: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: $avatar-width;
     padding: 0;
   }
 }
