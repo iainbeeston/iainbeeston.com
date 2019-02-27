@@ -8,8 +8,6 @@
     width: $icon-width;
     @media #{$bp-mobile} {
       display: inline-block;
-      *display: inline;
-      *zoom: 1;
       height: $mobile-icon-width;
       width: $mobile-icon-width;
     }
