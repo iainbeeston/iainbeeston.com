@@ -1,7 +1,6 @@
 .l-avatar {
   display: inline-block;
   float: left;
-  margin-right: $article-padding;
   width: $avatar-width;
   @media #{$bp-mobile} {
     margin-bottom: $article-padding;
