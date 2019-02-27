@@ -1,5 +1,11 @@
 .l-article {
   position: absolute;
   bottom: 0;
+  left: 0;
   padding: $article-padding;
+  right: 0;
+  @media #{$bp-mobile} {
+    overflow-y: scroll;
+    top: 0;
+  }
 }

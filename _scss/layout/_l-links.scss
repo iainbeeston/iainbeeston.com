@@ -4,8 +4,7 @@
   top: $article-padding;
   right: $article-padding;
   @media #{$bp-mobile} {
-    top: $mobile-avatar-width + $article-padding + $article-contents-padding;
-    right: auto;
-    left: $article-padding;
+    margin-top: $article-padding;
+    position: static;
   }
 }

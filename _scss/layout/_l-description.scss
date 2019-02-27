@@ -1,11 +1,9 @@
 .l-description {
-  overflow-x: hidden;
-  overflow-y: auto;
   padding: 0 $article-contents-padding;
+  margin-left: $avatar-width;
   margin-right: $icon-width;
   @media #{$bp-mobile} {
     margin: 0;
     padding: 0;
-    min-width: round($mobile-avatar-width*2/3);
   }
 }

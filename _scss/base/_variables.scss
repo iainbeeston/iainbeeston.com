@@ -1,4 +1,4 @@
-$bp-mobile: 'only screen and (max-width: 768px)';
+$bp-mobile: 'only screen and (max-width: 567px)';
 
 $icon-count: 4;
 
@@ -10,7 +10,6 @@ $avatar-width: $icon-box-width * $icon-count;
 $mobile-icon-width: $icon-width * 2;
 $mobile-icon-padding: $icon-padding * 2;
 $mobile-icon-box-width: $icon-box-width * 2;
-$mobile-avatar-width: $avatar-width * 2;
 
 $article-padding: $icon-width;
 $article-contents-padding: $icon-width / 2;
